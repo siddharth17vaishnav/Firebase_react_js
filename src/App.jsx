@@ -3,6 +3,7 @@ import {
   HomeImport,
   LoginWithEmailImport,
   LoginWithNumberImport,
+  LoginWithGoogleImport,
 } from "./utils/Imports";
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           element={<LoginWithEmailImport />}
         />
         <Route path="/login-with-number" element={<LoginWithNumberImport />} />
+        <Route path="/login-with-google" element={<LoginWithGoogleImport />} />
       </Routes>
       <div></div>
     </div>

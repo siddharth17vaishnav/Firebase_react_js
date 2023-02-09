@@ -10,6 +10,9 @@ const Home = () => {
       <button onClick={() => navigate("/login-with-number")}>
         Login With Number
       </button>
+      <button onClick={() => navigate("/login-with-google")}>
+        Login with Google
+      </button>
     </div>
   );
 };
